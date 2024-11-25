@@ -15,8 +15,10 @@ header{
 
 nav {
     background: rgb(39, 39, 39);
-    position: relative;
+    position:sticky;
+    top: 0px;
     padding: 10px;
+    /* margin-bottom: 15%; */
 }
 
 nav ul {
@@ -60,4 +62,6 @@ section{
     margin-right: auto;
     border-radius: 5px;
     color: black;
+    padding: 5px;
+    margin-bottom: 10px;
 }
